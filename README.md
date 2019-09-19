@@ -1,1 +1,14 @@
 # awslearn
+
+## ssh
+
+Generate key: `ssh-keygen -C david24365@gmail.com -f ~/.ssh/id_rsa_awslearn`
+
+  Generates private, `id_rsa_awslearn` and public key, `id_rsa_awslearn.pub`
+  
+Upload public key to EC2 (web console)
+
+Launch EC2 instance
+
+Login into EC2: `ssh ec2-user@1.2.3.4 -i ~/.ssh/id_rsa_awslearn`
+
