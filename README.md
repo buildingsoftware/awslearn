@@ -12,3 +12,9 @@ Launch EC2 instance
 
 Login into EC2: `ssh ec2-user@1.2.3.4 -i ~/.ssh/id_rsa_awslearn`
 
+## regions
+
+List of regions where EC2 is available: `aws ec2 describe-regions --all-regions | jq '.Regions | .[].RegionName'`
+
+Number of regions where EC2 is available: `aws ec2 describe-regions --all-regions | jq '.Regions | .[].RegionName' | wc -l`
+
