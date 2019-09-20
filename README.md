@@ -18,3 +18,14 @@ List of regions where EC2 is available: `aws ec2 describe-regions --all-regions 
 
 Number of regions where EC2 is available: `aws ec2 describe-regions --all-regions | jq '.Regions | .[].RegionName' | wc -l`
 
+## exam difficulty
+
+Perceived exam difficulty (just an opinion):
+- Developer Associate
+- Solutions Architect Associate
+- Sysops Administrator Associate
+- Security Speciality
+- Big Data Speciality
+- Devops Professional
+- Advanced Networking Speciality
+- Solutions Architect Professional
