@@ -29,3 +29,15 @@ Perceived exam difficulty (just an opinion):
 - Devops Professional
 - Advanced Networking Speciality
 - Solutions Architect Professional
+
+## recomended order
+
+Take exams in following order:
+- Solutions Architect Associate
+- Developer Associate
+- Sysops Administrator Associate
+- Security Specialty
+- Big Data Speciality
+- Advanced Networking Speciality
+- Devops Professional
+- Solutions Architect Professional
